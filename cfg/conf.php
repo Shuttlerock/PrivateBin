@@ -5,7 +5,7 @@
 
 [main]
 ; (optional) set a project name to be displayed on the website
-; name = "PrivateBin"
+; name = "Shuttlerock Secrets"
 
 ; enable or disable the discussion feature, defaults to true
 discussion = false
@@ -36,7 +36,7 @@ sizelimit = 10485760
 template = "bootstrap"
 
 ; (optional) notice to display
-; notice = "Note: This is a test service: Data may be deleted anytime. Kittens will die if you abuse this service."
+notice = ""
 
 ; by default PrivateBin will guess the visitors language based on the browsers
 ; settings. Optionally you can enable the language selection menu, which uses
@@ -54,7 +54,7 @@ languageselection = false
 
 ; (optional) Let users create a QR code for sharing the paste URL with one click.
 ; It works both when a new paste is created and when you view a paste.
-; qrcode = true
+qrcode = false
 
 ; (optional) IP based icons are a weak mechanism to detect if a comment was from
 ; a different user when the same username was used in a comment. It might be
@@ -111,10 +111,6 @@ default = "1week"
 1hour = 3600
 1day = 86400
 1week = 604800
-; Well this is not *exactly* one month, it's 30 days:
-1month = 2592000
-1year = 31536000
-never = 0
 
 [formatter_options]
 ; Set available formatters, their order and their labels
