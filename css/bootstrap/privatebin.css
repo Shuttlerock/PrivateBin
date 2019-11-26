@@ -205,3 +205,33 @@ li.L0, li.L1, li.L2, li.L3, li.L5, li.L6, li.L7, li.L8 {
 .modal .modal-content button {
 	margin: 0.5em 0;
 }
+
+/* Shuttlerock Customized */
+.shuttlerock-navbar-wrapper, main {
+	max-width: 1000px;
+  margin: 0 auto;
+}
+
+footer, #deletelink, #emaillink, #clonebutton {
+	display: none !important;
+}
+
+#copyhint {
+	display: block;
+}
+
+textarea#message {
+	border-color:  #ddd;
+	border-radius: 0 0 4px 4px;
+	border-top:    none;
+	box-shadow:    none;
+}
+
+a#pasteurl {
+	color: 			 #3c763d;
+	font-weight: bold;
+}
+
+pre#prettyprint {
+	margin-top: 10px;
+}

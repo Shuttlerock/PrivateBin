@@ -5,7 +5,7 @@
 
 [main]
 ; (optional) set a project name to be displayed on the website
-; name = "Shuttlerock Secrets"
+name = "Shuttlerock"
 
 ; enable or disable the discussion feature, defaults to true
 discussion = false
@@ -33,7 +33,7 @@ defaultformatter = "plaintext"
 sizelimit = 10485760
 
 ; template to include, default is "bootstrap" (tpl/bootstrap.php)
-template = "bootstrap"
+template = "shuttlerock-compact"
 
 ; (optional) notice to display
 notice = ""
