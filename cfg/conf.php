@@ -155,11 +155,11 @@ dir = PATH "data"
 ; example of DB configuration for MySQL
 class = Database
 [model_options]
-dsn = "mysql:host=localhost;dbname=privatebin;charset=UTF8"
+;dsn = "mysql:host=localhost;dbname=privatebin;charset=UTF8"
 dsn = "pgsql:host=ec2-107-22-253-158.compute-1.amazonaws.com;port=5432;dbname=d9s7mvpv79ije9"
 tbl = "privatebin_"	; table prefix
-usr = "omejlgrkcejtua"
-pwd = "e14232ceb0da62c29399b47626d8280d99093343580365d04680c1450841d140"
+usr = "aokrfqhjlkbwzr"
+pwd = "a7b57db221812ea806ecc6a24da514beb8b9aac8886e5886209b1cccab6e2b0c"
 opt[12] = true	  ; PDO::ATTR_PERSISTENT
 
 ;[model]
